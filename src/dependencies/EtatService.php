@@ -5,7 +5,7 @@ namespace iut;
 interface EtatService
 {
     /**
-     * Permet d'alerter l'état du manque critique d'eau sur votre commune
+     * Permet d'alerter l'État du manque critique d'eau sur votre commune
      */
     public function sendAlerteEau();
 }

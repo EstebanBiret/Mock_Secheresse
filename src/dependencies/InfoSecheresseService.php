@@ -2,8 +2,7 @@
 
 namespace iut;
 
-interface InfoSecheresseService
-{
+interface InfoSecheresseService {
     /**
      * retourne une prévision du nombre de jours sans pluie à venir
      */
@@ -12,7 +11,7 @@ interface InfoSecheresseService
     /**
      * retourne l'état des réserves d'eau potable du village (en m3)
      */
-    public function reserveEauMunicipale() : double;
+    public function reserveEauMunicipale() : float;
 }
 
 ?>

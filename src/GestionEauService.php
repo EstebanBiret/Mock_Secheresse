@@ -1,16 +1,19 @@
+<?php
+
 namespace iut;
-use InfoSecheresseService;
-use EtatService;
-use MunicipalServices;
+use iut\InfoSecheresseService;
+use iut\EtatService;
+use iut\MunicipalServices;
 
-class GestionEauService
-{
+class GestionEauService {
 
-    function __construct(InfoSecheresseService infoSecheresse, EtatService serviceEtat, MunicipalServices servicesMunicipaux) {
+    function __construct(InfoSecheresseService $infoSecheresse, EtatService $serviceEtat, MunicipalServices $servicesMunicipaux) {
+        
     }
 
     public function checkEtatSecheresse() {
 
-        }
     }
 }
+
+?>
